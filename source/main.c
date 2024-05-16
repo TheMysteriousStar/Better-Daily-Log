@@ -33,7 +33,7 @@ INITIALIZE_PLUGIN() {
     WHBLogUdpInit();
     WHBLogPrintf("Hola from Better Daily Log!");
 
-    sysTID = _SYSGetSystemApplicationTitleId(SYSTEM_APP_ID_SYSTEM_DAILY_LOG);
+    sysTID = _SYSGetSystemApplicationTitleId(SYSTEM_APP_ID_DAILY_LOG);
 
     WUPS_OpenStorage();
     WUPS_GetBool(NULL, MIRROR_SCREENS_CONFIG_ID, &mirrorScreens);
